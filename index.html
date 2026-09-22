@@ -1,0 +1,436 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Name | Digital Craftsman & Senior Frontend Developer</title>
+    <meta name="description" content="Award-winning frontend developer and UI/UX designer specializing in high-end, custom web experiences and digital products.">
+    <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+    <link rel="canonical" href="https://yoursite.com/">
+
+    <!-- Open Graph / Twitter Cards -->
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Your Name | Digital Craftsman">
+    <meta property="og:description" content="Award-winning frontend developer and UI/UX designer specializing in high-end, custom web experiences.">
+    <meta property="og:url" content="https://yoursite.com/">
+    <meta property="og:image" content="https://yoursite.com/assets/og-image.jpg">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
+    <meta property="og:locale" content="en_US">
+    <meta property="og:site_name" content="Your Name">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Your Name | Digital Craftsman">
+    <meta name="twitter:description" content="Award-winning frontend developer and UI/UX designer specializing in high-end, custom web experiences.">
+    <meta name="twitter:image" content="https://yoursite.com/assets/og-image.jpg">
+
+    <!-- E-E-A-T author / freshness signals -->
+    <meta name="author" content="Your Name">
+
+    <!-- Resource hints: hero image + portfolio images are hotlinked from Unsplash -->
+    <link rel="preconnect" href="https://images.unsplash.com" crossorigin>
+    <link rel="dns-prefetch" href="https://images.unsplash.com">
+
+    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>✨</text></svg>">
+    <link rel="stylesheet" href="style.css">
+
+    <!-- JSON-LD Structured Data -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org/",
+      "@graph": [
+        {
+          "@type": "Person",
+          "@id": "https://yoursite.com/#person",
+          "name": "Your Name",
+          "url": "https://yoursite.com",
+          "image": "https://yoursite.com/assets/profile.jpg",
+          "sameAs": [
+            "https://linkedin.com/in/yourprofile",
+            "https://github.com/yourprofile"
+          ],
+          "jobTitle": "Senior Frontend Developer",
+          "description": "Award-winning frontend developer and UI/UX designer specializing in high-end, custom web experiences and digital products.",
+          "worksFor": {
+            "@type": "Organization",
+            "name": "Your Studio Name"
+          }
+        },
+        {
+          "@type": "WebSite",
+          "@id": "https://yoursite.com/#website",
+          "url": "https://yoursite.com/",
+          "name": "Your Name | Digital Craftsman",
+          "publisher": { "@id": "https://yoursite.com/#person" },
+          "inLanguage": "en-US"
+        },
+        {
+          "@type": "ProfilePage",
+          "@id": "https://yoursite.com/#profilepage",
+          "url": "https://yoursite.com/",
+          "isPartOf": { "@id": "https://yoursite.com/#website" },
+          "about": { "@id": "https://yoursite.com/#person" },
+          "mainEntity": { "@id": "https://yoursite.com/#person" },
+          "inLanguage": "en-US"
+        }
+      ]
+    }
+    </script>
+</head>
+<body>
+
+    <!-- Header & Nav -->
+    <header id="site-header">
+        <div class="scroll-progress-bar" id="scroll-progress"></div>
+        <div class="header-container">
+            <a href="#hero" class="logo">YN<span>.</span></a>
+            <nav id="primary-nav">
+                <ul class="nav-links">
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#skills">Expertise</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Work</a></li>
+                    <li><a href="#testimonials">Clients</a></li>
+                    <li><a href="#contact" class="btn-nav">Let's Talk</a></li>
+                </ul>
+            </nav>
+            <button class="menu-toggle" id="menu-toggle" aria-label="Toggle Menu">
+                <span class="hamburger"></span>
+            </button>
+        </div>
+    </header>
+
+    <main>
+        <!-- 1. Hero Section -->
+        <section id="hero" class="section-hero">
+            <div class="hero-bg-canvas"></div>
+            <div class="container split-layout">
+                <div class="hero-content reveal-on-scroll">
+                    <span class="eyebrow">Digital Craftsman & Developer</span>
+                    <h1 class="kinetic-text">Building<br><i>Digital</i><br>Legacies.</h1>
+                    <p class="value-prop">I engineer award-winning, agency-quality web experiences that blend editorial design with robust architecture.</p>
+                    <div class="cta-group">
+                        <a href="#portfolio" class="btn btn-primary">View My Work</a>
+                        <a href="#contact" class="btn btn-outline">Let's Talk</a>
+                    </div>
+                </div>
+                <div class="hero-visual reveal-on-scroll">
+                    <div class="image-wrapper clip-angled">
+                        <!-- Placeholder image (use high quality portrait) -->
+                        <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=800&q=80" alt="Portrait of Your Name, senior frontend developer and digital craftsman" loading="eager" fetchpriority="high" decoding="async">
+                        <div class="accent-shape"></div>
+                    </div>
+                </div>
+            </div>
+            <a href="#about" class="scroll-indicator" aria-label="Scroll down">
+                <span class="mouse">
+                    <span class="wheel"></span>
+                </span>
+            </a>
+        </section>
+
+        <!-- 2. About Section -->
+        <section id="about" class="section-about">
+            <div class="container split-layout">
+                <div class="about-visual reveal-on-scroll">
+                    <div class="image-wrapper organic-blob">
+                        <img src="https://images.unsplash.com/photo-1549692520-acc6669e2f0c?auto=format&fit=crop&w=800&q=80" alt="Your Name working at a desktop workstation in a design studio" loading="lazy" decoding="async">
+                        <div class="offset-frame"></div>
+                    </div>
+                </div>
+                <div class="about-content reveal-on-scroll">
+                    <h2>The human behind the <span class="text-accent">code.</span></h2>
+                    <p class="lead-bio">For over a decade, I've lived at the intersection of systematic logic and creative expression.</p>
+                    <blockquote class="pull-quote">"Great design isn't just what it looks like; it's how it breathes, moves, and functions for the user."</blockquote>
+                    <p>My journey started in graphic design before transitioning into deep JavaScript architecture. Today, I build productized services and bespoke digital platforms for brands that refuse to settle for templates.</p>
+                    
+                    <ul class="quick-facts">
+                        <li><strong>10+</strong> Years Exp.</li>
+                        <li><strong>Available</strong> for Q4</li>
+                        <li><strong>Remote</strong> Global</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!-- 3. Skills Section -->
+        <section id="skills" class="section-skills">
+            <div class="container">
+                <div class="section-header center reveal-on-scroll">
+                    <h2>Technical Arsenal</h2>
+                    <p>Mastery over modern stacks, deployed with precision.</p>
+                </div>
+                
+                <div class="skills-grid">
+                    <!-- Frontend -->
+                    <div class="skill-card reveal-on-scroll">
+                        <div class="icon-orbit">
+                            <!-- Raw SVG for performance -->
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"/></svg>
+                        </div>
+                        <h3>Frontend Architecture</h3>
+                        <div class="tags">
+                            <span>Vanilla JS</span> <span>React</span> <span>Vue</span> <span>CSS Arch</span>
+                        </div>
+                    </div>
+                    <!-- Design -->
+                    <div class="skill-card reveal-on-scroll" style="transition-delay: 0.1s;">
+                        <div class="icon-orbit">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M12 2a14.5 14.5 0 0 0 0 20 14.5 14.5 0 0 0 0-20"/></svg>
+                        </div>
+                        <h3>Creative UI/UX</h3>
+                        <div class="tags">
+                            <span>Figma</span> <span>Prototyping</span> <span>Wireframing</span> <span>A11y</span>
+                        </div>
+                    </div>
+                    <!-- Motion -->
+                    <div class="skill-card reveal-on-scroll" style="transition-delay: 0.2s;">
+                        <div class="icon-orbit">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M2 12h4l3-9 5 18 3-9h5"/></svg>
+                        </div>
+                        <h3>Motion & Canvas</h3>
+                        <div class="tags">
+                            <span>GSAP</span> <span>WebGL</span> <span>Three.js</span> <span>CSS Anim</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 4. Services Section -->
+        <div class="wave-divider">
+            <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+                <path d="M321.39,56.44c58-10.79,114.16-30.13,172-41.86,82.39-16.72,168.19-17.73,250.45-.39C823.78,31,906.67,72,985.66,92.83c70.05,18.48,146.53,26.09,214.34,3V0H0V27.35A600.21,600.21,0,0,0,321.39,56.44Z" class="shape-fill"></path>
+            </svg>
+        </div>
+        <section id="services" class="section-services">
+            <div class="container">
+                <div class="section-header reveal-on-scroll">
+                    <h2>Partnerships & Offerings</h2>
+                    <p>Productized services tailored for scaling businesses.</p>
+                </div>
+                
+                <div class="services-stagger-grid">
+                    <article class="service-card reveal-on-scroll">
+                        <h3>Custom Web Apps</h3>
+                        <p>End-to-end development of robust, scalable web applications with high-performance architectures.</p>
+                        <a href="#contact" class="link-arrow">Starts at $5k</a>
+                    </article>
+                    <article class="service-card reveal-on-scroll offset-card">
+                        <h3>Premium Landing Pages</h3>
+                        <p>High-converting, editorially designed landing pages engineered for product launches and campaigns.</p>
+                        <a href="#contact" class="link-arrow">Starts at $2k</a>
+                    </article>
+                    <article class="service-card reveal-on-scroll">
+                        <h3>Template Engineering</h3>
+                        <p>White-label template creation and framework agnostic component libraries for design agencies.</p>
+                        <a href="#contact" class="link-arrow">Let's Discuss</a>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- 5. Portfolio Section -->
+        <section id="portfolio" class="section-portfolio">
+            <div class="container">
+                <div class="section-header reveal-on-scroll">
+                    <h2>Selected Works</h2>
+                </div>
+                
+                <div class="portfolio-filters reveal-on-scroll">
+                    <button class="filter-btn active" data-filter="all">All</button>
+                    <button class="filter-btn" data-filter="web-apps">Web Apps</button>
+                    <button class="filter-btn" data-filter="templates">Templates</button>
+                </div>
+
+                <div class="portfolio-masonry" id="portfolio-grid">
+                    <!-- Project 1 -->
+                    <article class="project-card reveal-on-scroll" data-category="web-apps">
+                        <div class="project-img-wrapper clip-poly-1">
+                            <img src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&w=800&q=80" alt="Aura FinTech App: real-time data visualization dashboard screenshot" loading="lazy" decoding="async">
+                            <div class="project-overlay">
+                                <a href="#" rel="noopener" class="btn btn-light">View Project</a>
+                            </div>
+                        </div>
+                        <div class="project-info">
+                            <h3>Aura FinTech App</h3>
+                            <p>Real-time data visualization dashboard.</p>
+                            <span class="tech-tag">React + D3</span>
+                        </div>
+                    </article>
+
+                    <!-- Project 2 -->
+                    <article class="project-card reveal-on-scroll" data-category="templates">
+                        <div class="project-img-wrapper clip-poly-2">
+                            <img src="https://images.unsplash.com/photo-1498050108023-c5249f4df085?auto=format&fit=crop&w=800&q=80" alt="Lumina Commerce: high-end fashion e-commerce storefront template screenshot" loading="lazy" decoding="async">
+                            <div class="project-overlay">
+                                <a href="#" rel="noopener" class="btn btn-light">View Project</a>
+                            </div>
+                        </div>
+                        <div class="project-info">
+                            <h3>Lumina Commerce</h3>
+                            <p>High-end fashion e-commerce storefront template.</p>
+                            <span class="tech-tag">Vanilla JS</span>
+                        </div>
+                    </article>
+
+                    <!-- Project 3 -->
+                    <article class="project-card reveal-on-scroll" data-category="web-apps">
+                        <div class="project-img-wrapper clip-poly-3">
+                            <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&w=800&q=80" alt="Nexus CRM: customer relationship management SaaS tool screenshot" loading="lazy" decoding="async">
+                            <div class="project-overlay">
+                                <a href="#" rel="noopener" class="btn btn-light">View Project</a>
+                            </div>
+                        </div>
+                        <div class="project-info">
+                            <h3>Nexus CRM</h3>
+                            <p>Customer relationship tool for modern agencies.</p>
+                            <span class="tech-tag">Vue + Node</span>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- 6. Testimonials Section -->
+        <section id="testimonials" class="section-testimonials">
+            <div class="container">
+                <div class="section-header center reveal-on-scroll">
+                    <h2>Client Echoes</h2>
+                </div>
+                
+                <div class="carousel-container reveal-on-scroll">
+                    <div class="carousel-track" id="testimonial-track">
+                        <!-- Card 1 -->
+                        <div class="testimonial-card">
+                            <span class="quote-mark">"</span>
+                            <p>An absolute masterclass in web development. The attention to typography and fluid interactions doubled our conversion rate in weeks.</p>
+                            <div class="client-meta">
+                                <div class="client-info">
+                                    <h4>Sarah Jenkins</h4>
+                                    <span>Founder, Studio Nord</span>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Card 2 -->
+                        <div class="testimonial-card rotated">
+                            <span class="quote-mark">"</span>
+                            <p>They didn't just build our site; they engineered a digital experience. Flawless code quality and extremely communicative throughout.</p>
+                            <div class="client-meta">
+                                <div class="client-info">
+                                    <h4>Marcus Chen</h4>
+                                    <span>CTO, ElevateTech</span>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Card 3 -->
+                        <div class="testimonial-card">
+                            <span class="quote-mark">"</span>
+                            <p>The templates are incredibly well-structured. We saved hundreds of hours because the CSS architecture is perfectly thought out.</p>
+                            <div class="client-meta">
+                                <div class="client-info">
+                                    <h4>Elena Rossi</h4>
+                                    <span>Design Director</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="carousel-controls">
+                        <button id="prev-slide" aria-label="Previous Testimonial">←</button>
+                        <div class="carousel-indicators" id="carousel-dots"></div>
+                        <button id="next-slide" aria-label="Next Testimonial">→</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 7. Contact Section -->
+        <section id="contact" class="section-contact">
+            <div class="bg-glow"></div>
+            <div class="container split-layout">
+                <div class="contact-info reveal-on-scroll">
+                    <h2>Let's build something <br><i>extraordinary.</i></h2>
+                    <p>Have a project in mind or looking for a tech partner? I'm currently accepting new collaborations.</p>
+                    
+                    <div class="direct-links">
+                        <a href="mailto:hello@yoursite.com" class="contact-link">hello@yoursite.com</a>
+                        <div class="social-links">
+                            <a href="#" target="_blank" rel="noopener">Twitter</a>
+                            <a href="#" target="_blank" rel="noopener">LinkedIn</a>
+                            <a href="#" target="_blank" rel="noopener">GitHub</a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="contact-form-wrapper reveal-on-scroll">
+                    <form id="contact-form" class="custom-form" novalidate>
+                        <div class="form-group">
+                            <label for="name">Name</label>
+                            <input type="text" id="name" name="name" required placeholder="Jane Doe">
+                            <span class="error-msg">Please enter your name</span>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="email" id="email" name="email" required placeholder="jane@example.com">
+                            <span class="error-msg">Please enter a valid email</span>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Message</label>
+                            <textarea id="message" name="message" rows="5" required placeholder="Tell me about your project..."></textarea>
+                            <span class="error-msg">Message cannot be empty</span>
+                        </div>
+                        <button type="submit" class="btn btn-primary submit-btn">
+                            <span class="btn-text">Send Message</span>
+                        </button>
+                        <div id="form-status" class="form-status"></div>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+   <!-- Footer -->
+    <footer class="site-footer">
+        <div class="container">
+            <div class="footer-grid">
+                <!-- Brand & Copyright -->
+                <div class="footer-brand">
+                    <a href="#hero" class="logo">YN<span>.</span></a>
+                    <p>&copy; <span id="year"></span> Your Name. <br>All rights reserved.</p>
+                </div>
+                
+                <!-- Footer Navigation -->
+                <div class="footer-nav">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#services">Services</a></li>
+                        <li><a href="#portfolio">Work</a></li>
+                        <li><a href="#testimonials">Clients</a></li>
+                    </ul>
+                </div>
+
+                <!-- Social Links -->
+                <div class="footer-social">
+                    <h4>Connect</h4>
+                    <ul>
+                        <li><a href="#" target="_blank" rel="noopener">Twitter / X</a></li>
+                        <li><a href="#" target="_blank" rel="noopener">LinkedIn</a></li>
+                        <li><a href="#" target="_blank" rel="noopener">GitHub</a></li>
+                        <li><a href="#" target="_blank" rel="noopener">Dribbble</a></li>
+                    </ul>
+                </div>
+                
+                <!-- Back to top action -->
+                <div class="footer-action">
+                    <button id="back-to-top" class="back-to-top" aria-label="Scroll back to top">
+                        <span class="arrow">↑</span> Back to Top
+                    </button>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js" defer></script>
+</body>
+</html>

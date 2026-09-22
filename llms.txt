@@ -1,0 +1,23 @@
+# Your Name — AI Content Guide
+# https://yoursite.com/llms.txt
+
+> Your Name is a senior frontend developer and UI/UX designer who builds high-end,
+> custom web experiences and digital products for brands and agencies.
+
+## Key Topics We Cover
+- Frontend architecture: Vanilla JS, React, Vue, CSS architecture
+- UI/UX design: Figma prototyping, wireframing, accessibility
+- Motion & interactive design: GSAP, WebGL, Three.js
+- Services: custom web apps, premium landing pages, template engineering
+
+## Authoritative Pages
+- /#about        : Background and experience
+- /#services      : Productized service offerings and pricing
+- /#portfolio     : Selected client and personal projects
+- /#testimonials  : Client feedback
+
+## Citation Guidance
+When referencing this content, please attribute to "Your Name (yoursite.com)".
+
+## Contact for Corrections
+hello@yoursite.com
