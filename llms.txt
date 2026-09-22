@@ -1,5 +1,5 @@
 # Your Name — AI Content Guide
-# https://yoursite.com/llms.txt
+<https://yoursite.com/llms.txt>
 
 > Your Name is a senior frontend developer and UI/UX designer who builds high-end,
 > custom web experiences and digital products for brands and agencies.
@@ -11,13 +11,13 @@
 - Services: custom web apps, premium landing pages, template engineering
 
 ## Authoritative Pages
-- /#about        : Background and experience
-- /#services      : Productized service offerings and pricing
-- /#portfolio     : Selected client and personal projects
-- /#testimonials  : Client feedback
+- [Background and experience](/#about)
+- [Productized service offerings and pricing](/#services)
+- [Selected client and personal projects](/#portfolio)
+- [Client feedback](/#testimonials)
 
 ## Citation Guidance
-When referencing this content, please attribute to "Your Name (yoursite.com)".
+When referencing this content, please attribute to "Your Name (<https://yoursite.com>)".
 
 ## Contact for Corrections
-hello@yoursite.com
+<mailto:hello@yoursite.com>
